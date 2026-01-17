@@ -9,10 +9,6 @@ See the [cookbook](https://iupac.github.io/WFChemCookbook/) for a user-friendly,
 
 The contents of this repository are designed to use the [Jupyter Book](https://jupyterbook.org/) framework to generate a simple to navigate and easy to maintain set of reference materials for getting started leveraging common and powerful chemical information tooling.
 
-## Developer instructions
-
-See the [contributing guide](./CONTRIBUTING.md).
-
 ## About this project
 
 The Committee on Data of the International Science Council ([CODATA](https://codata.org/)) and the Research Data Alliance ([RDA](https://rd-alliance.org/)) have recently launched the [WorldFAIR Initiative](https://worldfair-project.eu/) to advance implementation of the [FAIR data principles](https://force11.org/info/the-fair-data-principles/) within and across research domains.
@@ -25,3 +21,27 @@ All presented code should execute as written, and if it does not please [let us 
 General purpose software engineering strategies and techniques (_e.g._, Python language semantics, branch management in Git) are out of scope for this reference material, but an effort will be made to reference relevant external materials.
 
 *WorldFAIR “Global cooperation on FAIR data policy and practice” is funded by the EC HORIZON-WIDERA-2021-ERA-01-41 Coordination and Support Action under Grant Agreement No. 101058393.*
+
+## Contributing
+
+See the [contributing guide](./CONTRIBUTING.md) with further information on how to contribute to this project, as wells as installation and development instructions.
+
+## Installation
+
+This project can be downloaded directly from the repository website or via
+
+```sh .noeval
+git clone git@github.com:theoechem/article_MAHE_2024_IL_pitfalls.git
+```
+
+Install [pixi](https://pixi.prefix.dev/dev/installation/) and install the dependencies via pixi.
+
+```sh .noeval
+pixi install
+```
+
+To explore the Jupyter notebooks in `book` interactively use your favorite IDE or start jupyter via:
+
+```sh .noeval
+pixi run jupyter lab
+```

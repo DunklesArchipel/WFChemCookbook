@@ -15,7 +15,7 @@ More advanced practitioners should consider putting together a [pull request](ht
 This project can be downloaded directly from the repository website or via
 
 ```sh .noeval
-git clone git@github.com:theoechem/article_MAHE_2024_IL_pitfalls.git
+git clone git@github.com:IUPAC/WFChemCookbook.git
 ```
 
 Install [pixi](https://pixi.prefix.dev/dev/installation/) and install the dependencies via pixi.
@@ -24,7 +24,7 @@ Install [pixi](https://pixi.prefix.dev/dev/installation/) and install the depend
 pixi install
 ```
 
-To build the book locally run:
+To explore the cookbook locally run:
 
 ```sh .noeval
 pixi run serve
@@ -56,6 +56,12 @@ Clean cached packages
 pixi run clean
 ```
 
+Build the website (without serving) and check for broken links
+
+```sh .noeval
+pixi run build
+```
+
 If nothing works it is sometimes helpful to delete the `pixi.lock` file and clean the `.pixi` folder
 
 The cache of the jupyter book build can be cleared (deletes `book/_build` folder)
@@ -64,5 +70,5 @@ TODO:: The build option "should" execute the notebooks and raise errors. This do
 In addition the validity of links is checked.
 
 ```sh .noeval
-pixi run build
+pixi run execute
 ```

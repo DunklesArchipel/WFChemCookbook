@@ -55,6 +55,7 @@ myst-nb = "*"
 mystmd = "*"
 
 [feature.doc.tasks]
-build = "cd book && myst build --execute --strict --check-links"
+execute = "cd book && myst build --execute --strict --check-links"
+build = "cd book && myst build --strict --check-links"
 serve = "cd book && jupyter-book start "
 clean = "cd book && rm -rf _build"

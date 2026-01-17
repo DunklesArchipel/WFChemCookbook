@@ -23,7 +23,7 @@ jobs:
         with: { pixi-version: v0.50.2 }
       - name: Build the book
         run: |
-          cd doc
+          cd book
           pixi run -e dev jupyter-book build
 
       # Push the book's HTML to github-pages

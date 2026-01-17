@@ -1,0 +1,86 @@
+version: 1
+project:
+  title: IUPAC FAIR Chemistry Cookbook
+  authors:
+    - name: IUPAC WorldFAIR Chemistry D3.2 Project
+  github: IUPAC/WFChemCookbook
+  thebe:
+    binder:
+      repo: IUPAC/WFChemCookbook
+      provider: github
+      url: https://mybinder.org
+      ref: main
+  bibliography:
+    - references.bib
+  exports:
+    - format: pdf
+      template: plain_latex_book
+      output: exports/book.pdf
+  toc:
+    - file: intro.md
+    - title: Introduction
+      children:
+        - file: about_cookbook.md
+          title: About this Cookbook
+        - file: use_cookbook.md
+        - file: contributions.md
+        - file: feedback.md
+    - title: The FAIR Chemistry Cookbook
+      children:
+        - file: cooking.md
+          title: The Joy of FAIR
+          children:
+            - file: techniques.md
+              title: FAIR Techniques
+        - file: tools.md
+          title: Tools & Web Services
+          children:
+            - pattern: tools/*
+        - file: data_sources.md
+          title: Data Sources
+          children:
+            - file: datasources/goldbook_api.ipynb
+              title: 'Terminology: The IUPAC Gold Book'
+            - file: datasources/cas_commonchem.ipynb
+            - file: datasources/pubchem.md
+              children:
+                - file: datasources/pubchem_pugrest.md
+                  title: PubChem PUG-REST
+                  children:
+                    - file: datasources/pubchem_pugrest1.ipynb
+                    - file: datasources/pubchem_pugrest2.ipynb
+                    - file: datasources/pubchem_pugrest3.ipynb
+                - file: datasources/pubchem_pugview.ipynb
+                  title: PubChem PUG-View
+                - file: datasources/pubchem_ptable.ipynb
+                  title: PubChem Periodic Table
+        - file: manipulations.md
+          title: Data Manipulations
+          children:
+            - file: manipulations/computing_inchis.ipynb
+            - file: manipulations/dataset_search.ipynb
+            - file: manipulations/excel_import.md
+              title: Importing data into Excel
+            - file: manipulations/gsheets_citations.md
+              title: Importing data into Google Sheets
+            - file: manipulations/using_inchi.md
+              title: Annotation with InChIs
+        - file: usecases.md
+          title: Use Cases & Workflows
+          children:
+            - pattern: usecases/*
+    - title: Reference
+      children:
+        - file: about_project.md
+          title: About this project
+          children:
+            - file: contributors.md
+            - file: development.md
+            - file: worldfair.md
+        - file: glossary.md
+        - file: bibliography.md
+site:
+  options:
+    logo: static/img/iupac_and_wf.jpg
+    folders: true
+  template: book-theme

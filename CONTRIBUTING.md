@@ -8,4 +8,4 @@ If you spot something wrong or missing, please let us know through an [issue](ht
 
 # Pull Requests
 
-More advanced practitioners should consider putting together a [pull request](https://github.com/IUPAC/WFChemCookbook/pulls).  Direct contributions are the fastest way to improve this work, whether it be because there's a quick editorial improvement or because we're missing the latest, greatest library.  
+More advanced practitioners should consider putting together a [pull request](https://github.com/IUPAC/WFChemCookbook/pulls).  Direct contributions are the fastest way to improve this work, whether it be because there's a quick editorial improvement or because we're missing the latest, greatest library.

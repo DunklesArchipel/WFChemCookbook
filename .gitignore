@@ -1,7 +1,24 @@
 .idea
 .DS_Store
-book/_build
 book/manipulations/hiddensettings.py
 book/howtos/inchikeys.md
 book/.DS_Store
+book/nul
 Pipfile.lock
+
+# generated data from tests and builds
+book/usecases/uvvis_metadata.png
+book/_build
+book/conformer1.txt
+book/conformer2.txt
+book/manipulations/.excel_import.md.bak
+
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+
+# MyST build outputs
+_build
+
+# Jupyter Notebook
+.ipynb_checkpoints

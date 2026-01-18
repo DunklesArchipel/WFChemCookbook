@@ -21,8 +21,10 @@ python = "*"
 rdkit = ">=2025.9.4,<2026"
 seaborn = ">=0.13.2,<0.14"
 
-# [pypi-dependencies]
+[pypi-dependencies]
 # jcamp = ">=1,<2"
+# workaround until release of https://github.com/nzhagen/jcamp/commit/2a6c43147eb8863310b6e299a1ce54e28013a97c
+jcamp = { git = "https://github.com/nzhagen/jcamp.git", branch = "master" }
 
 [feature.python-310.dependencies]
 python = "3.10.*"

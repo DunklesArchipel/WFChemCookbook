@@ -12,6 +12,15 @@ project:
       ref: main
   bibliography:
     - references.bib
+  # links that are fine in a browser but block automated link checkers
+  # (403/503/429 to bots) — do not fail builds on them
+  error_rules:
+    - rule: link-resolves
+      severity: ignore
+      keys:
+        - 'https://pubs.acs.org/**'
+        - 'https://pubchem.ncbi.nlm.nih.gov/compound/**'
+        - 'https://api.crossref.org'
   exports:
     - format: pdf
       template: plain_latex_book

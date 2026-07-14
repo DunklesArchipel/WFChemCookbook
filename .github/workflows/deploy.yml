@@ -26,6 +26,10 @@ jobs:
           cd book
           pixi run -e dev jupyter-book build
 
+      # The MyST book-theme has no custom-script option, so add Matomo after the build
+      - name: Inject Matomo analytics
+        run: python3 .github/scripts/inject_matomo.py book/_build/html
+
       # Push the book's HTML to github-pages
       - name: GitHub Pages action
         uses: peaceiris/actions-gh-pages@v3.9.3

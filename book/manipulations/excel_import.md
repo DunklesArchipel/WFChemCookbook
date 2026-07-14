@@ -118,7 +118,7 @@ Figure 4
 ![fig4](../images/excel_import_fig4.jpg)
 Caption: CASRNs in (4a) and advanced options for interpretting numeric values (4b)
 
-```{Note}
+```{note}
 If you want to find out how prevalent CASRN's being misinterpreted as dates, use this 
 [link](https://query.wikidata.org/#%23All%20CAS%20registry%20numbers%20in%20Wikidata%0ASELECT%20DISTINCT%20%3Fcompound%20%3FcompoundLabel%20%3Fcas%0AWHERE%0A%7B%0A%20%20%3Fcompound%20wdt%3AP231%20%3Fcas%20.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%7D%0ALIMIT%201000) 
 to run a SPARQL query (search) on Wikidata, that retrieves the first 1000 compounds with a CASRN.  Click the 'Run' 

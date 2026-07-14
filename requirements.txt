@@ -1,0 +1,11 @@
+# Environment for Binder (repo2docker) — used when launching the notebooks
+# from the website. Not used for building the site; that is done with pixi
+# (see pixi.toml). Keep the jcamp pin in sync with pixi.toml.
+jcamp==1.2.2
+matplotlib==3.10.8
+numpy>=2,<3
+openbabel-wheel==3.1.1.22
+pandas==2.3.3
+rdkit==2025.9.4
+requests>=2
+seaborn==0.13.2

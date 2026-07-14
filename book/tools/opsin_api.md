@@ -10,7 +10,7 @@
 - Usage: [Instructions](https://opsin.ch.cam.ac.uk/instructions.html)
 - Publication: [https://doi.org/10.1021/ci100384d](https://pubs.acs.org/articlesonrequest/AOR-PcYgSy87ettZWfqyvHmN)
 - Website: [https://opsin.ch.cam.ac.uk](https://opsin.ch.cam.ac.uk)
-- Application Programming Interface (API): https://opsin.ch.cam.ac.uk/opsin/
+- Application Programming Interface (API): `https://opsin.ch.cam.ac.uk/opsin/`
   - Endpoint: Chemical Markup Language file <chemicalname>.cml (e.g., [https://opsin.ch.cam.ac.uk/opsin/benzene.cml](https://opsin.ch.cam.ac.uk/opsin/benzene.cml))
   - Endpoint: Standard InChI text file <chemicalname>.stdinchi (e.g., [https://opsin.ch.cam.ac.uk/opsin/benzene.stdinchi](https://opsin.ch.cam.ac.uk/opsin/benzene.stdinchi))
   - Endpoint: Standard InChIKey text file <chemicalname>.stdinchikey (e.g., [https://opsin.ch.cam.ac.uk/opsin/benzene.stdinchikey](https://opsin.ch.cam.ac.uk/opsin/benzene.stdinchikey))

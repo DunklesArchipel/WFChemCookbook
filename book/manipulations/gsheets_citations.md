@@ -20,7 +20,7 @@
 ## Summary
 In many research contexts, access to the literature is very important and dealing with its metadata can be time-consuming.
 The advent of the [Digital Object Identifier](https://www.doi.org/) (DOI) has made it much easier to deal with 
-citation data for many different types of digital resources.  Currently, twelve [registration agencies](https://www.doi.org/the-community/existing-registration-agencies/) are 
+citation data for many different types of digital resources.  Currently, twelve [registration agencies](https://en.wikipedia.org/wiki/Digital_object_identifier#Registration_agencies) are 
 'minting' (creating) DOI's and each has a different scope and size.  From a research literature perspective 
 [CrossRef](https://www.crossref.org/) is the agency  that holds DOI's (now [~150,000,000](https://www.crossref.org/06members/53status.html)) and that is a lot of data to sort through.
 

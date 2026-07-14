@@ -7,10 +7,10 @@ book/nul
 Pipfile.lock
 
 # generated data from tests and builds
-book/usecases/uvvis_metadata.png
+# notebooks write their outputs to a files/generated/ folder (relative to the
+# kernel cwd: the notebook's folder interactively, book/ during myst execution)
+**/files/generated/
 book/_build
-book/conformer1.txt
-book/conformer2.txt
 book/manipulations/.excel_import.md.bak
 
 # pixi environments

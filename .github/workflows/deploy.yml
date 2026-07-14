@@ -40,3 +40,12 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: book/_build/html
+
+      # Non-blocking link check: reports dead external links in the step log
+      # (red X on the step) without failing the workflow — some sites block or
+      # rate-limit the checker (ACS 403, PubChem 503, Crossref 429)
+      - name: Check links (non-blocking)
+        continue-on-error: true
+        run: |
+          cd book
+          pixi run -e dev myst build --strict --check-links

@@ -19,6 +19,17 @@ article h6 { font-size: 1rem    !important; }
    the site footer, as on the previous site */
 header.myst-fm-authors-affiliations { display: none; }
 
+/* Inline images used inside dropdown titles (e.g. the rocket icon in
+   "About this interactive 🚀 recipe") — the theme renders images as centered
+   blocks, which breaks the header onto three lines */
+.myst-dropdown-header-title img {
+  display: inline-block !important;
+  height: 1.2em;
+  width: auto;
+  margin: 0 0.15em !important;
+  vertical-align: text-bottom;
+}
+
 /* Footer: left-align the EU funding logo, as in the JB1 footer */
 footer.article img {
   margin-left: 0 !important;

@@ -189,6 +189,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/typing-extensions-4.15.0-h396c80c_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/typing_extensions-4.15.0-pyhcf101f3_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/tzdata-2025c-hc9c84f9_1.conda
+      - pypi: https://files.pythonhosted.org/packages/67/9a/e8c791b2d9ccc3a59c1c564c3fa62a300045fad020603a01a9270bb7960c/openbabel-3.2.1-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
       - pypi: https://files.pythonhosted.org/packages/a7/eb/37d05b935ede53d79690fecc8d201440084418e590bcfc05f384451c7593/zope_interface-8.5-cp314-cp314-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
@@ -346,6 +347,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/typing-extensions-4.15.0-h396c80c_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/typing_extensions-4.15.0-pyhcf101f3_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/tzdata-2025c-hc9c84f9_1.conda
+      - pypi: https://files.pythonhosted.org/packages/35/98/2c4badc6aa956aef775cd1303c2b8557f4076703db23d345ffc8a7b2bd87/openbabel-3.2.1-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.whl
       - pypi: https://files.pythonhosted.org/packages/51/8c/db8409cfa3575b8e9b4800babd7d49f8228433cd1f0c56814bd0ada49c33/zope_interface-8.5-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.whl
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
@@ -455,6 +457,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-64/zlib-ng-2.3.2-h8bce59a_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/zstd-1.5.7-h3eecb57_6.conda
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
+      - pypi: https://files.pythonhosted.org/packages/ba/d9/0aabbdd9b39c838832123c13ac9ffbebf4543520dbc0e6da60f48e380ab1/openbabel-3.2.1-cp313-cp313-macosx_10_13_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/f4/8c/4c15755d701f2ec0e80d64a18e1ebaf5be2c584c0ec153fd516f5d13eada/zope_interface-8.5-cp313-cp313-macosx_10_9_x86_64.whl
       osx-arm64:
@@ -563,6 +566,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/xorg-libxdmcp-1.1.5-hc919400_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/zlib-ng-2.3.2-hed4e4f5_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/zstd-1.5.7-hbf9d68e_6.conda
+      - pypi: https://files.pythonhosted.org/packages/2c/eb/29697830f84cad5aa878af946667a9f8457a0b3f3027396720a7d2bf2404/openbabel-3.2.1-cp314-cp314-macosx_11_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/f1/53/3ef644012cf8a6a234a2d6134aab5a5c65ac5467c86296865501d4fbc406/zope_interface-8.5-cp314-cp314-macosx_11_0_arm64.whl
@@ -681,6 +685,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/win-64/xorg-libxdmcp-1.1.5-hba3369d_1.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/zlib-ng-2.3.2-h0261ad2_1.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/zstd-1.5.7-h534d264_6.conda
+      - pypi: https://files.pythonhosted.org/packages/0a/f4/dac3a401a7a021fcfdc0a282f49456ef32a7a3f5a3f6ab5e2a74285cccb9/openbabel-3.2.1-cp314-cp314-win_amd64.whl
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
       - pypi: https://files.pythonhosted.org/packages/c1/1d/c420dcd777bb761067ea92879ac766694a5ca78608185f1aecea64cbfc11/zope_interface-8.5-cp314-cp314-win_amd64.whl
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
@@ -1022,9 +1027,9 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/webencodings-0.5.1-pyhd8ed1ab_3.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/websocket-client-1.9.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/zipp-3.23.0-pyhcf101f3_1.conda
-      - pypi: https://files.pythonhosted.org/packages/13/ea/5f81cd018bf60301fcca9e133d3a47b8caca14576266dcdc9b38f96c7879/openbabel_wheel-3.1.1.22-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/70/8d/454a9cfc7a050c394ab4f11b3371f7897828b7415e096afff724637e65e0/zope_interface-8.5-cp313-cp313-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
+      - pypi: https://files.pythonhosted.org/packages/9a/4f/c6f84663b0c22b02ec24c4fbce9f8d2c46fed397655b44924c5260660e80/openbabel-3.2.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
       linux-aarch64:
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/_openmp_mutex-4.5-2_gnu.tar.bz2
@@ -1361,8 +1366,8 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/zipp-3.23.0-pyhcf101f3_1.conda
       - pypi: https://files.pythonhosted.org/packages/30/4c/8b56259558cace4414e753ca6740396a1f59d4a95ddb55b4658600408670/zope_interface-8.5-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.whl
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/bc/ce/e9a9553a10ec6f0a3f1a3112cd00619bb77651779b59507ce1be4dcef2a1/openbabel_wheel-3.1.1.22-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/d3/af/4dd25ef6437ee6e49cb2697538b327df5fda90f20177f03453ed6f0b414a/openbabel-3.2.1-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.whl
       osx-64:
       - conda: https://conda.anaconda.org/conda-forge/noarch/_python_abi3_support-1.0-hd8ed1ab_2.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/alabaster-1.0.0-pyhd8ed1ab_1.conda
@@ -1651,7 +1656,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-64/zlib-ng-2.3.2-h8bce59a_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/zstandard-0.25.0-py312h01f6755_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/zstd-1.5.7-h3eecb57_6.conda
-      - pypi: https://files.pythonhosted.org/packages/64/35/b5ccaa112d253fb9089db9c5390d066cab08b5401cd2ec59709937f0a746/openbabel_wheel-3.1.1.22-cp312-cp312-macosx_13_0_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/04/76/6f9a9f5514229077d8d8142ac81d0171e1976ddb85a18917261c7188566f/openbabel-3.2.1-cp312-cp312-macosx_10_13_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
       - pypi: https://files.pythonhosted.org/packages/97/cc/b84123a948f3162a34623e188922827cd845244fdd043ed20f8d02228caa/zope_interface-8.5-cp312-cp312-macosx_10_9_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
@@ -1943,9 +1948,9 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/zstandard-0.25.0-py313h9734d34_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/zstd-1.5.7-hbf9d68e_6.conda
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
+      - pypi: https://files.pythonhosted.org/packages/77/df/3d9194aa5c864bb71ff1b7608e9f142ff7e0d08b1481ba741d640e46f116/openbabel-3.2.1-cp313-cp313-macosx_11_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/9a/2e/4360c54c465db042cc8fbeeec92abac28b4cedbf6ba63c1f092fd08a190f/zope_interface-8.5-cp313-cp313-macosx_11_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/ef/c3/33947aadfba41478e04776d613c2f677bfe263e69653d406f13147b49373/openbabel_wheel-3.1.1.22-cp313-cp313-macosx_13_0_arm64.whl
       win-64:
       - conda: https://conda.anaconda.org/conda-forge/noarch/_python_abi3_support-1.0-hd8ed1ab_2.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/alabaster-1.0.0-pyhd8ed1ab_1.conda
@@ -2236,7 +2241,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/win-64/zstd-1.5.7-h534d264_6.conda
       - pypi: https://files.pythonhosted.org/packages/4a/df/a386940e41469ef615e100a216d8b386521e9e598817147f87932ca203c4/zope_interface-8.5-cp313-cp313-win_amd64.whl
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/80/1d/8e88918fe6047d8eee9a53aa9b153bf9e098fc871cfd5c86a2a5b16e38a1/openbabel_wheel-3.1.1.22-cp313-cp313-win_amd64.whl
+      - pypi: https://files.pythonhosted.org/packages/c5/9e/ea5a71b1f99b85d362f0f6859b590d8cbb298a37ee910744296aec4f1141/openbabel-3.2.1-cp313-cp313-win_amd64.whl
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
   python-310:
     channels:
@@ -2403,6 +2408,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/tzdata-2025c-hc9c84f9_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/wheel-0.45.1-pyhd8ed1ab_1.conda
       - pypi: https://files.pythonhosted.org/packages/06/61/e6501d8ea7a2cac3217e03f404e1f98c1df7191d83cfe86b1895fbba5dac/zope_interface-8.5-cp310-cp310-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/44/b7/4cadf92fedbfd64ddf05dc7a190b9d7f79e5b5482f2fc2e0ca4ed5171208/openbabel-3.2.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
       linux-aarch64:
@@ -2564,6 +2570,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/wheel-0.45.1-pyhd8ed1ab_1.conda
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
       - pypi: https://files.pythonhosted.org/packages/91/15/bfa25ef480b02af6e9452c478483fec75e87c9e2b60c407fd0b1f6054b9c/zope_interface-8.5-cp310-cp310-manylinux2014_aarch64.manylinux_2_17_aarch64.whl
+      - pypi: https://files.pythonhosted.org/packages/c1/e6/62b6605fa3c3d16fdffc9d70f169c0be45e676e9e366315df1b141256535/openbabel-3.2.1-cp310-cp310-manylinux2014_aarch64.manylinux_2_17_aarch64.whl
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
       osx-64:
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.1.4-hbd8a1cb_0.conda
@@ -2675,6 +2682,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
       - pypi: https://files.pythonhosted.org/packages/b6/43/9cd98bee951d23848de690ba2809f87e3b22c67c370987acc960da15ad37/zope_interface-8.5-cp310-cp310-macosx_10_9_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/ed/23/d4522f05f012f160a8ef8e523cad879965e6c179a0d09c347de98d74a8e6/openbabel-3.2.1-cp310-cp310-macosx_10_9_x86_64.whl
       osx-arm64:
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.1.4-hbd8a1cb_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/charset-normalizer-3.4.4-pyhd8ed1ab_0.conda
@@ -2784,6 +2792,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/zstd-1.5.7-hbf9d68e_6.conda
       - pypi: https://files.pythonhosted.org/packages/17/0f/8f1a29966bcf863e3a2121edcafb81c55715de7886bcc9544749cc79e7da/zope_interface-8.5-cp310-cp310-macosx_11_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
+      - pypi: https://files.pythonhosted.org/packages/7a/07/b394c6e4076aa92639761548ea5a71d6ef1bdf6d05d5549280fa76803974/openbabel-3.2.1-cp310-cp310-macosx_11_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
       win-64:
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.1.4-h4c7d964_0.conda
@@ -2901,6 +2910,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/win-64/xorg-libxdmcp-1.1.5-hba3369d_1.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/zlib-ng-2.3.2-h0261ad2_1.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/zstd-1.5.7-h534d264_6.conda
+      - pypi: https://files.pythonhosted.org/packages/4b/3b/5b9c452db8dc652c475392e8dbca591c49452d2de384c6f8aa6f8e987d5e/openbabel-3.2.1-cp310-cp310-win_amd64.whl
       - pypi: https://files.pythonhosted.org/packages/64/51/2b518072fea76242da64451d501c69b7b5ccdef9b57fead584ccf1c180d5/zope_interface-8.5-cp310-cp310-win_amd64.whl
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
@@ -3071,6 +3081,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/03/3e/1774b0ee46ccbb5498ee3c33ece40315b6ef58bc71957be94bd345340bc1/zope_interface-8.5-cp311-cp311-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/ef/aa/b2ade118fffbcc4ce772a3d8218f58b0ee13f75d01c46cc954ff3ebe4a79/openbabel-3.2.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
       linux-aarch64:
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/_openmp_mutex-4.5-2_gnu.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/alsa-lib-1.2.15.3-he30d5cf_0.conda
@@ -3228,6 +3239,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/typing_extensions-4.15.0-pyhcf101f3_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/tzdata-2025c-hc9c84f9_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/wheel-0.45.1-pyhd8ed1ab_1.conda
+      - pypi: https://files.pythonhosted.org/packages/4f/2c/7409180a699634a1f25082cb0c8426137c1512fbfe7881a1d06ee1d8f1c4/openbabel-3.2.1-cp311-cp311-manylinux2014_aarch64.manylinux_2_17_aarch64.whl
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
       - pypi: https://files.pythonhosted.org/packages/b6/09/e533b2ffabaae4e5d5730d6768a591cf335defe8e37bec2ad905d09be656/zope_interface-8.5-cp311-cp311-manylinux2014_aarch64.manylinux_2_17_aarch64.whl
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
@@ -3341,6 +3353,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
       - pypi: https://files.pythonhosted.org/packages/ce/f1/83ad110fb847413affe71609bb50e59e1aa082e1236030122227c7c283d3/zope_interface-8.5-cp311-cp311-macosx_10_9_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/ec/90/513265cf92cc3efb9153a0dded1c690ff88f268f60fe1520f8737e39bc2f/openbabel-3.2.1-cp311-cp311-macosx_10_9_x86_64.whl
       osx-arm64:
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.1.4-hbd8a1cb_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/charset-normalizer-3.4.4-pyhd8ed1ab_0.conda
@@ -3448,6 +3461,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/xorg-libxdmcp-1.1.5-hc919400_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/zlib-ng-2.3.2-hed4e4f5_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/zstd-1.5.7-hbf9d68e_6.conda
+      - pypi: https://files.pythonhosted.org/packages/74/19/58ba38dfe7871fb1d72eee3e2f7d4048b18362474e19b07be6ef6c1ab21d/openbabel-3.2.1-cp311-cp311-macosx_11_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
       - pypi: https://files.pythonhosted.org/packages/bb/a7/6b6e0c31ac240cb9fc015ae9ed45ca54be886c18fcf7bfa2377a4d7a8785/zope_interface-8.5-cp311-cp311-macosx_11_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
@@ -3570,6 +3584,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/49/4a/3ebe6a4c122b2d5340db45cbe7e490663d3228b172710ec71060cd5d541e/zope_interface-8.5-cp311-cp311-win_amd64.whl
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/ed/f2/eb846f951ab0a7028733ef63b5caaf0b4173c91f20d33a08a3ee2b33e1cf/openbabel-3.2.1-cp311-cp311-win_amd64.whl
   python-312:
     channels:
     - url: https://conda.anaconda.org/conda-forge/
@@ -3737,6 +3752,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
       - pypi: https://files.pythonhosted.org/packages/c5/66/1036543d6a66bc04c19df3cf650f3ad938a002ab0a443c24e23e8de5e8b9/zope_interface-8.5-cp312-cp312-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/e2/37/e5c54fbe0d3c9ba17e1f8332631757cbffe727d82a0b290e82e67e3566ea/openbabel-3.2.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
       linux-aarch64:
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/_openmp_mutex-4.5-2_gnu.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/alsa-lib-1.2.15.3-he30d5cf_0.conda
@@ -3897,6 +3913,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/30/4c/8b56259558cace4414e753ca6740396a1f59d4a95ddb55b4658600408670/zope_interface-8.5-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.whl
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/d3/af/4dd25ef6437ee6e49cb2697538b327df5fda90f20177f03453ed6f0b414a/openbabel-3.2.1-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.whl
       osx-64:
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.1.4-hbd8a1cb_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/charset-normalizer-3.4.4-pyhd8ed1ab_0.conda
@@ -4004,6 +4021,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-64/xorg-libxdmcp-1.1.5-h8616949_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/zlib-ng-2.3.2-h8bce59a_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/zstd-1.5.7-h3eecb57_6.conda
+      - pypi: https://files.pythonhosted.org/packages/04/76/6f9a9f5514229077d8d8142ac81d0171e1976ddb85a18917261c7188566f/openbabel-3.2.1-cp312-cp312-macosx_10_13_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
       - pypi: https://files.pythonhosted.org/packages/97/cc/b84123a948f3162a34623e188922827cd845244fdd043ed20f8d02228caa/zope_interface-8.5-cp312-cp312-macosx_10_9_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
@@ -4116,6 +4134,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/zstd-1.5.7-hbf9d68e_6.conda
       - pypi: https://files.pythonhosted.org/packages/4e/78/cbceec44f1b27208a76c1a688c131302685852406a23df5aab68324109cc/zope_interface-8.5-cp312-cp312-macosx_11_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
+      - pypi: https://files.pythonhosted.org/packages/c9/53/574a2b10d5c7b3df5f84041ab97bbbc351c489b26883f865e99ee7c8fbde/openbabel-3.2.1-cp312-cp312-macosx_11_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
       win-64:
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.1.4-h4c7d964_0.conda
@@ -4234,6 +4253,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/win-64/zlib-ng-2.3.2-h0261ad2_1.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/zstd-1.5.7-h534d264_6.conda
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
+      - pypi: https://files.pythonhosted.org/packages/7d/b0/9fbad1c10263c15debda2fecf08e7ee908bcdbf8eedf0280bbf669e2bd32/openbabel-3.2.1-cp312-cp312-win_amd64.whl
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/f9/ea/649908c83aa8fdb7faf2ddca4d3cf6fb8f2157121267dc56e8f72681e26c/zope_interface-8.5-cp312-cp312-win_amd64.whl
   python-313:
@@ -4399,6 +4419,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/tzdata-2025c-hc9c84f9_1.conda
       - pypi: https://files.pythonhosted.org/packages/70/8d/454a9cfc7a050c394ab4f11b3371f7897828b7415e096afff724637e65e0/zope_interface-8.5-cp313-cp313-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
+      - pypi: https://files.pythonhosted.org/packages/9a/4f/c6f84663b0c22b02ec24c4fbce9f8d2c46fed397655b44924c5260660e80/openbabel-3.2.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
       linux-aarch64:
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/_openmp_mutex-4.5-2_gnu.tar.bz2
@@ -4554,6 +4575,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/typing-extensions-4.15.0-h396c80c_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/typing_extensions-4.15.0-pyhcf101f3_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/tzdata-2025c-hc9c84f9_1.conda
+      - pypi: https://files.pythonhosted.org/packages/35/98/2c4badc6aa956aef775cd1303c2b8557f4076703db23d345ffc8a7b2bd87/openbabel-3.2.1-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.whl
       - pypi: https://files.pythonhosted.org/packages/51/8c/db8409cfa3575b8e9b4800babd7d49f8228433cd1f0c56814bd0ada49c33/zope_interface-8.5-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.whl
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
@@ -4663,6 +4685,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-64/zlib-ng-2.3.2-h8bce59a_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/zstd-1.5.7-h3eecb57_6.conda
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
+      - pypi: https://files.pythonhosted.org/packages/ba/d9/0aabbdd9b39c838832123c13ac9ffbebf4543520dbc0e6da60f48e380ab1/openbabel-3.2.1-cp313-cp313-macosx_10_13_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/f4/8c/4c15755d701f2ec0e80d64a18e1ebaf5be2c584c0ec153fd516f5d13eada/zope_interface-8.5-cp313-cp313-macosx_10_9_x86_64.whl
       osx-arm64:
@@ -4771,6 +4794,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/zlib-ng-2.3.2-hed4e4f5_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/zstd-1.5.7-hbf9d68e_6.conda
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
+      - pypi: https://files.pythonhosted.org/packages/77/df/3d9194aa5c864bb71ff1b7608e9f142ff7e0d08b1481ba741d640e46f116/openbabel-3.2.1-cp313-cp313-macosx_11_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/9a/2e/4360c54c465db042cc8fbeeec92abac28b4cedbf6ba63c1f092fd08a190f/zope_interface-8.5-cp313-cp313-macosx_11_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
       win-64:
@@ -4889,6 +4913,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/win-64/zstd-1.5.7-h534d264_6.conda
       - pypi: https://files.pythonhosted.org/packages/4a/df/a386940e41469ef615e100a216d8b386521e9e598817147f87932ca203c4/zope_interface-8.5-cp313-cp313-win_amd64.whl
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
+      - pypi: https://files.pythonhosted.org/packages/c5/9e/ea5a71b1f99b85d362f0f6859b590d8cbb298a37ee910744296aec4f1141/openbabel-3.2.1-cp313-cp313-win_amd64.whl
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
   python-314:
     channels:
@@ -5052,6 +5077,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/typing-extensions-4.15.0-h396c80c_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/typing_extensions-4.15.0-pyhcf101f3_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/tzdata-2025c-hc9c84f9_1.conda
+      - pypi: https://files.pythonhosted.org/packages/67/9a/e8c791b2d9ccc3a59c1c564c3fa62a300045fad020603a01a9270bb7960c/openbabel-3.2.1-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
       - pypi: https://files.pythonhosted.org/packages/a7/eb/37d05b935ede53d79690fecc8d201440084418e590bcfc05f384451c7593/zope_interface-8.5-cp314-cp314-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
@@ -5211,6 +5237,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/typing_extensions-4.15.0-pyhcf101f3_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/tzdata-2025c-hc9c84f9_1.conda
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
+      - pypi: https://files.pythonhosted.org/packages/77/e6/1e159a45bac51ff4167b80b9e3958903fbb2dc133f32c18eecd6a969f487/openbabel-3.2.1-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.whl
       - pypi: https://files.pythonhosted.org/packages/8b/0b/fd0c54579e2ce8dc6cf1a757903f3374bc6fbda929a46af9e0f53cb0e5f0/zope_interface-8.5-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.whl
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
       osx-64:
@@ -5320,6 +5347,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-64/zlib-ng-2.3.2-h8bce59a_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/zstd-1.5.7-h3eecb57_6.conda
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
+      - pypi: https://files.pythonhosted.org/packages/a4/1a/cf8d08297a119d565ddb1a9809e201dd7f9fdf2fbd965c1af6f0799c5dad/openbabel-3.2.1-cp314-cp314-macosx_10_15_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d4/19/5032e954827fdf02db2d2f49737ac4378bb9cfc2cd95a8f2e2a5ae2ec01a/zope_interface-8.5-cp314-cp314-macosx_10_9_x86_64.whl
       osx-arm64:
@@ -5428,6 +5456,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/xorg-libxdmcp-1.1.5-hc919400_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/zlib-ng-2.3.2-hed4e4f5_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/zstd-1.5.7-hbf9d68e_6.conda
+      - pypi: https://files.pythonhosted.org/packages/2c/eb/29697830f84cad5aa878af946667a9f8457a0b3f3027396720a7d2bf2404/openbabel-3.2.1-cp314-cp314-macosx_11_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/f1/53/3ef644012cf8a6a234a2d6134aab5a5c65ac5467c86296865501d4fbc406/zope_interface-8.5-cp314-cp314-macosx_11_0_arm64.whl
@@ -5546,6 +5575,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/win-64/xorg-libxdmcp-1.1.5-hba3369d_1.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/zlib-ng-2.3.2-h0261ad2_1.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/zstd-1.5.7-h534d264_6.conda
+      - pypi: https://files.pythonhosted.org/packages/0a/f4/dac3a401a7a021fcfdc0a282f49456ef32a7a3f5a3f6ab5e2a74285cccb9/openbabel-3.2.1-cp314-cp314-win_amd64.whl
       - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
       - pypi: https://files.pythonhosted.org/packages/c1/1d/c420dcd777bb761067ea92879ac766694a5ca78608185f1aecea64cbfc11/zope_interface-8.5-cp314-cp314-win_amd64.whl
       - pypi: https://files.pythonhosted.org/packages/cf/7a/ea0f3e3ea74be36fc7cf54f966cde732a3de72697983cdb5646b0a4dacde/datetime-6.0-py3-none-any.whl
@@ -26956,6 +26986,11 @@ packages:
   - zope-event ; extra == 'testing'
   - zope-testing ; extra == 'testing'
   requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/04/76/6f9a9f5514229077d8d8142ac81d0171e1976ddb85a18917261c7188566f/openbabel-3.2.1-cp312-cp312-macosx_10_13_x86_64.whl
+  name: openbabel
+  version: 3.2.1
+  sha256: 1de881a1a138ef7cbc87d6b69fa55bc6803d76c69dcb9c38828c31056b52d3de
+  requires_python: '>=3.10'
 - pypi: https://files.pythonhosted.org/packages/06/61/e6501d8ea7a2cac3217e03f404e1f98c1df7191d83cfe86b1895fbba5dac/zope_interface-8.5-cp310-cp310-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl
   name: zope-interface
   version: '8.5'
@@ -26971,11 +27006,11 @@ packages:
   - zope-event ; extra == 'testing'
   - zope-testing ; extra == 'testing'
   requires_python: '>=3.10'
-- pypi: https://files.pythonhosted.org/packages/13/ea/5f81cd018bf60301fcca9e133d3a47b8caca14576266dcdc9b38f96c7879/openbabel_wheel-3.1.1.22-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-  name: openbabel-wheel
-  version: 3.1.1.22
-  sha256: a9986f9f5c64f69b27c416fd38f551bb00da037fe66f69dc6b0d2ef10dfc9f40
-  requires_python: '>=3.7'
+- pypi: https://files.pythonhosted.org/packages/0a/f4/dac3a401a7a021fcfdc0a282f49456ef32a7a3f5a3f6ab5e2a74285cccb9/openbabel-3.2.1-cp314-cp314-win_amd64.whl
+  name: openbabel
+  version: 3.2.1
+  sha256: 035adaeb0cca1390ea7d72966ef92005b88eb22949032ff2932be102b17abf35
+  requires_python: '>=3.10'
 - pypi: https://files.pythonhosted.org/packages/17/0f/8f1a29966bcf863e3a2121edcafb81c55715de7886bcc9544749cc79e7da/zope_interface-8.5-cp310-cp310-macosx_11_0_arm64.whl
   name: zope-interface
   version: '8.5'
@@ -26991,6 +27026,11 @@ packages:
   - zope-event ; extra == 'testing'
   - zope-testing ; extra == 'testing'
   requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/2c/eb/29697830f84cad5aa878af946667a9f8457a0b3f3027396720a7d2bf2404/openbabel-3.2.1-cp314-cp314-macosx_11_0_arm64.whl
+  name: openbabel
+  version: 3.2.1
+  sha256: 0b7a95b448310faeb090e84693564c06a8dde5156e13d420bff42ee39e09c0af
+  requires_python: '>=3.10'
 - pypi: https://files.pythonhosted.org/packages/30/4c/8b56259558cace4414e753ca6740396a1f59d4a95ddb55b4658600408670/zope_interface-8.5-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.whl
   name: zope-interface
   version: '8.5'
@@ -27005,6 +27045,16 @@ packages:
   - coverage[toml] ; extra == 'testing'
   - zope-event ; extra == 'testing'
   - zope-testing ; extra == 'testing'
+  requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/35/98/2c4badc6aa956aef775cd1303c2b8557f4076703db23d345ffc8a7b2bd87/openbabel-3.2.1-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.whl
+  name: openbabel
+  version: 3.2.1
+  sha256: e80aba168a71a4650ecc8526ee3bed663dadfcc488291984d0f7970b014ae1ef
+  requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/44/b7/4cadf92fedbfd64ddf05dc7a190b9d7f79e5b5482f2fc2e0ca4ed5171208/openbabel-3.2.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+  name: openbabel
+  version: 3.2.1
+  sha256: ca6345ca6cc66522208c45355a90472d657be78dec7706757d477bfb0c105413
   requires_python: '>=3.10'
 - pypi: https://files.pythonhosted.org/packages/49/4a/3ebe6a4c122b2d5340db45cbe7e490663d3228b172710ec71060cd5d541e/zope_interface-8.5-cp311-cp311-win_amd64.whl
   name: zope-interface
@@ -27036,6 +27086,11 @@ packages:
   - zope-event ; extra == 'testing'
   - zope-testing ; extra == 'testing'
   requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/4b/3b/5b9c452db8dc652c475392e8dbca591c49452d2de384c6f8aa6f8e987d5e/openbabel-3.2.1-cp310-cp310-win_amd64.whl
+  name: openbabel
+  version: 3.2.1
+  sha256: 0d61defefb6f663fde131dd844525bcda6289aa922205a89ef44162b704a4890
+  requires_python: '>=3.10'
 - pypi: https://files.pythonhosted.org/packages/4e/78/cbceec44f1b27208a76c1a688c131302685852406a23df5aab68324109cc/zope_interface-8.5-cp312-cp312-macosx_11_0_arm64.whl
   name: zope-interface
   version: '8.5'
@@ -27050,6 +27105,11 @@ packages:
   - coverage[toml] ; extra == 'testing'
   - zope-event ; extra == 'testing'
   - zope-testing ; extra == 'testing'
+  requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/4f/2c/7409180a699634a1f25082cb0c8426137c1512fbfe7881a1d06ee1d8f1c4/openbabel-3.2.1-cp311-cp311-manylinux2014_aarch64.manylinux_2_17_aarch64.whl
+  name: openbabel
+  version: 3.2.1
+  sha256: ea5a233b762816f1e57c0edc39e00ad273a1a2949ad9d0f5d80acac1450db361
   requires_python: '>=3.10'
 - pypi: https://files.pythonhosted.org/packages/51/8c/db8409cfa3575b8e9b4800babd7d49f8228433cd1f0c56814bd0ada49c33/zope_interface-8.5-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.whl
   name: zope-interface
@@ -27066,11 +27126,6 @@ packages:
   - zope-event ; extra == 'testing'
   - zope-testing ; extra == 'testing'
   requires_python: '>=3.10'
-- pypi: https://files.pythonhosted.org/packages/64/35/b5ccaa112d253fb9089db9c5390d066cab08b5401cd2ec59709937f0a746/openbabel_wheel-3.1.1.22-cp312-cp312-macosx_13_0_x86_64.whl
-  name: openbabel-wheel
-  version: 3.1.1.22
-  sha256: 9189315a466da529e6422fa588163be230f0fcfb8d79e240fd9d8330fd2af8a6
-  requires_python: '>=3.7'
 - pypi: https://files.pythonhosted.org/packages/64/51/2b518072fea76242da64451d501c69b7b5ccdef9b57fead584ccf1c180d5/zope_interface-8.5-cp310-cp310-win_amd64.whl
   name: zope-interface
   version: '8.5'
@@ -27085,6 +27140,11 @@ packages:
   - coverage[toml] ; extra == 'testing'
   - zope-event ; extra == 'testing'
   - zope-testing ; extra == 'testing'
+  requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/67/9a/e8c791b2d9ccc3a59c1c564c3fa62a300045fad020603a01a9270bb7960c/openbabel-3.2.1-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+  name: openbabel
+  version: 3.2.1
+  sha256: f7a732b425ccd97c1c99e736b7a66344e1e78f8baf0de61972c84a6a284db562
   requires_python: '>=3.10'
 - pypi: https://files.pythonhosted.org/packages/70/8d/454a9cfc7a050c394ab4f11b3371f7897828b7415e096afff724637e65e0/zope_interface-8.5-cp313-cp313-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl
   name: zope-interface
@@ -27101,6 +27161,11 @@ packages:
   - zope-event ; extra == 'testing'
   - zope-testing ; extra == 'testing'
   requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/74/19/58ba38dfe7871fb1d72eee3e2f7d4048b18362474e19b07be6ef6c1ab21d/openbabel-3.2.1-cp311-cp311-macosx_11_0_arm64.whl
+  name: openbabel
+  version: 3.2.1
+  sha256: a08b7d6aa6be7d39183a363992ba816c8c08c2a7ed65b1423ccb8ca5524ed5ba
+  requires_python: '>=3.10'
 - pypi: https://files.pythonhosted.org/packages/75/9e/d01a2f6bbacd90c5a3a7f53fb496b7968613cdcefda7d307bfb023eebcf5/jcamp-1.2.2.tar.gz
   name: jcamp
   version: 1.2.2
@@ -27108,11 +27173,26 @@ packages:
   requires_dist:
   - numpy
   - datetime
-- pypi: https://files.pythonhosted.org/packages/80/1d/8e88918fe6047d8eee9a53aa9b153bf9e098fc871cfd5c86a2a5b16e38a1/openbabel_wheel-3.1.1.22-cp313-cp313-win_amd64.whl
-  name: openbabel-wheel
-  version: 3.1.1.22
-  sha256: e98ccbc75c3fcfa225554e6def913e949aff1c6ac9bad178e47bc313ce16d596
-  requires_python: '>=3.7'
+- pypi: https://files.pythonhosted.org/packages/77/df/3d9194aa5c864bb71ff1b7608e9f142ff7e0d08b1481ba741d640e46f116/openbabel-3.2.1-cp313-cp313-macosx_11_0_arm64.whl
+  name: openbabel
+  version: 3.2.1
+  sha256: 96e3518d7b9d25f82c4387bf7db180d6825ba7abd9a5cfbaff84a6291e361865
+  requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/77/e6/1e159a45bac51ff4167b80b9e3958903fbb2dc133f32c18eecd6a969f487/openbabel-3.2.1-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.whl
+  name: openbabel
+  version: 3.2.1
+  sha256: dce9336b55e2458e62f181ab9e51556c9a2562ca2b5baf81b1612d853cc38b69
+  requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/7a/07/b394c6e4076aa92639761548ea5a71d6ef1bdf6d05d5549280fa76803974/openbabel-3.2.1-cp310-cp310-macosx_11_0_arm64.whl
+  name: openbabel
+  version: 3.2.1
+  sha256: 39ba821326e2f9d4c0e91cc54f3c5e27d6b5f342130b17f56bd7b9ed83b6ecf5
+  requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/7d/b0/9fbad1c10263c15debda2fecf08e7ee908bcdbf8eedf0280bbf669e2bd32/openbabel-3.2.1-cp312-cp312-win_amd64.whl
+  name: openbabel
+  version: 3.2.1
+  sha256: 44910a1ee4576a3a0b8ca14f23617b7f191b5d89b3643493bb4d1463195bd978
+  requires_python: '>=3.10'
 - pypi: https://files.pythonhosted.org/packages/8b/0b/fd0c54579e2ce8dc6cf1a757903f3374bc6fbda929a46af9e0f53cb0e5f0/zope_interface-8.5-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.whl
   name: zope-interface
   version: '8.5'
@@ -27173,6 +27253,16 @@ packages:
   - zope-event ; extra == 'testing'
   - zope-testing ; extra == 'testing'
   requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/9a/4f/c6f84663b0c22b02ec24c4fbce9f8d2c46fed397655b44924c5260660e80/openbabel-3.2.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+  name: openbabel
+  version: 3.2.1
+  sha256: 163e45d0d0f23c77985e6b0e84bc33cb89c808d31480715bd621e59a031b4b09
+  requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/a4/1a/cf8d08297a119d565ddb1a9809e201dd7f9fdf2fbd965c1af6f0799c5dad/openbabel-3.2.1-cp314-cp314-macosx_10_15_x86_64.whl
+  name: openbabel
+  version: 3.2.1
+  sha256: d6e05ec17ae224c8d36f976c04f794484003322b04773b849bcd15d78c2422b2
+  requires_python: '>=3.10'
 - pypi: https://files.pythonhosted.org/packages/a7/eb/37d05b935ede53d79690fecc8d201440084418e590bcfc05f384451c7593/zope_interface-8.5-cp314-cp314-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl
   name: zope-interface
   version: '8.5'
@@ -27218,6 +27308,11 @@ packages:
   - zope-event ; extra == 'testing'
   - zope-testing ; extra == 'testing'
   requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/ba/d9/0aabbdd9b39c838832123c13ac9ffbebf4543520dbc0e6da60f48e380ab1/openbabel-3.2.1-cp313-cp313-macosx_10_13_x86_64.whl
+  name: openbabel
+  version: 3.2.1
+  sha256: 6ad899f3b8fa44020917acfb12aad1defccd2f8534fc976cfb2031907798e930
+  requires_python: '>=3.10'
 - pypi: https://files.pythonhosted.org/packages/bb/a7/6b6e0c31ac240cb9fc015ae9ed45ca54be886c18fcf7bfa2377a4d7a8785/zope_interface-8.5-cp311-cp311-macosx_11_0_arm64.whl
   name: zope-interface
   version: '8.5'
@@ -27233,11 +27328,6 @@ packages:
   - zope-event ; extra == 'testing'
   - zope-testing ; extra == 'testing'
   requires_python: '>=3.10'
-- pypi: https://files.pythonhosted.org/packages/bc/ce/e9a9553a10ec6f0a3f1a3112cd00619bb77651779b59507ce1be4dcef2a1/openbabel_wheel-3.1.1.22-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
-  name: openbabel-wheel
-  version: 3.1.1.22
-  sha256: 17588f6823a1a2bc361fbdfec167e8d30d4764176b0b63a3e3127efae71aed8f
-  requires_python: '>=3.7'
 - pypi: https://files.pythonhosted.org/packages/c1/1d/c420dcd777bb761067ea92879ac766694a5ca78608185f1aecea64cbfc11/zope_interface-8.5-cp314-cp314-win_amd64.whl
   name: zope-interface
   version: '8.5'
@@ -27253,6 +27343,11 @@ packages:
   - zope-event ; extra == 'testing'
   - zope-testing ; extra == 'testing'
   requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/c1/e6/62b6605fa3c3d16fdffc9d70f169c0be45e676e9e366315df1b141256535/openbabel-3.2.1-cp310-cp310-manylinux2014_aarch64.manylinux_2_17_aarch64.whl
+  name: openbabel
+  version: 3.2.1
+  sha256: 820c90349e7f024b11e92aa2e0e243baa3f6a282312c16ebd1738489b87c45c3
+  requires_python: '>=3.10'
 - pypi: https://files.pythonhosted.org/packages/c5/66/1036543d6a66bc04c19df3cf650f3ad938a002ab0a443c24e23e8de5e8b9/zope_interface-8.5-cp312-cp312-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl
   name: zope-interface
   version: '8.5'
@@ -27267,6 +27362,16 @@ packages:
   - coverage[toml] ; extra == 'testing'
   - zope-event ; extra == 'testing'
   - zope-testing ; extra == 'testing'
+  requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/c5/9e/ea5a71b1f99b85d362f0f6859b590d8cbb298a37ee910744296aec4f1141/openbabel-3.2.1-cp313-cp313-win_amd64.whl
+  name: openbabel
+  version: 3.2.1
+  sha256: bdc96be34791a7eb6c7c5f022ae6368e45dd3d42dcfeb03d159b633d5644943c
+  requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/c9/53/574a2b10d5c7b3df5f84041ab97bbbc351c489b26883f865e99ee7c8fbde/openbabel-3.2.1-cp312-cp312-macosx_11_0_arm64.whl
+  name: openbabel
+  version: 3.2.1
+  sha256: c5785ccc30b0405890e037f4d7652cc12df2909be092aef5eabc9dd4c5d01848
   requires_python: '>=3.10'
 - pypi: https://files.pythonhosted.org/packages/ce/f1/83ad110fb847413affe71609bb50e59e1aa082e1236030122227c7c283d3/zope_interface-8.5-cp311-cp311-macosx_10_9_x86_64.whl
   name: zope-interface
@@ -27291,6 +27396,11 @@ packages:
   - zope-interface
   - pytz
   requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/d3/af/4dd25ef6437ee6e49cb2697538b327df5fda90f20177f03453ed6f0b414a/openbabel-3.2.1-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.whl
+  name: openbabel
+  version: 3.2.1
+  sha256: dcb76ec05be8789cab24229e6a8b8b369ffb72e8fc0fa0f570e6420b579af62c
+  requires_python: '>=3.10'
 - pypi: https://files.pythonhosted.org/packages/d4/19/5032e954827fdf02db2d2f49737ac4378bb9cfc2cd95a8f2e2a5ae2ec01a/zope_interface-8.5-cp314-cp314-macosx_10_9_x86_64.whl
   name: zope-interface
   version: '8.5'
@@ -27306,11 +27416,31 @@ packages:
   - zope-event ; extra == 'testing'
   - zope-testing ; extra == 'testing'
   requires_python: '>=3.10'
-- pypi: https://files.pythonhosted.org/packages/ef/c3/33947aadfba41478e04776d613c2f677bfe263e69653d406f13147b49373/openbabel_wheel-3.1.1.22-cp313-cp313-macosx_13_0_arm64.whl
-  name: openbabel-wheel
-  version: 3.1.1.22
-  sha256: 1d442a81e2b39c9b1d24a3bea010ef779542056160b8a6d9e7184d72a34152d4
-  requires_python: '>=3.7'
+- pypi: https://files.pythonhosted.org/packages/e2/37/e5c54fbe0d3c9ba17e1f8332631757cbffe727d82a0b290e82e67e3566ea/openbabel-3.2.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+  name: openbabel
+  version: 3.2.1
+  sha256: bdaceaa9c6d14cae08594d535b81745eb6b5850007f87599c3495bf500f292c8
+  requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/ec/90/513265cf92cc3efb9153a0dded1c690ff88f268f60fe1520f8737e39bc2f/openbabel-3.2.1-cp311-cp311-macosx_10_9_x86_64.whl
+  name: openbabel
+  version: 3.2.1
+  sha256: 89c3e8e8b9d55f0daba8f860713751b17b280400dd70b9eba530377eb55da427
+  requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/ed/23/d4522f05f012f160a8ef8e523cad879965e6c179a0d09c347de98d74a8e6/openbabel-3.2.1-cp310-cp310-macosx_10_9_x86_64.whl
+  name: openbabel
+  version: 3.2.1
+  sha256: 13bb8c6daba5916eed613c89b8c59531497895b08f3294e9b0ebe39351842e76
+  requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/ed/f2/eb846f951ab0a7028733ef63b5caaf0b4173c91f20d33a08a3ee2b33e1cf/openbabel-3.2.1-cp311-cp311-win_amd64.whl
+  name: openbabel
+  version: 3.2.1
+  sha256: 04c64bd8db520046abdc01396ee122b3b32deb08bdd2fa136a16228ffad7bf8c
+  requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/ef/aa/b2ade118fffbcc4ce772a3d8218f58b0ee13f75d01c46cc954ff3ebe4a79/openbabel-3.2.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+  name: openbabel
+  version: 3.2.1
+  sha256: c5340ebb2e75da58765b27af2134cdcc8c140e97d1cd9729d7e1f6a74458832e
+  requires_python: '>=3.10'
 - pypi: https://files.pythonhosted.org/packages/f1/53/3ef644012cf8a6a234a2d6134aab5a5c65ac5467c86296865501d4fbc406/zope_interface-8.5-cp314-cp314-macosx_11_0_arm64.whl
   name: zope-interface
   version: '8.5'

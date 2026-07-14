@@ -20,41 +20,43 @@ project:
     - file: intro.md
     - title: Introduction
       children:
-        - file: about_cookbook.md
+        - file: introduction/about_cookbook.md
           title: About this Cookbook
-        - file: use_cookbook.md
-        - file: contributions.md
-        - file: feedback.md
+        - file: introduction/use_cookbook.md
+        - file: introduction/contributions.md
+        - file: introduction/feedback.md
     - title: The FAIR Chemistry Cookbook
       children:
-        - file: cooking.md
+        - file: joy_of_fair/index.md
           title: The Joy of FAIR
           children:
-            - file: techniques.md
+            - file: joy_of_fair/techniques.md
               title: FAIR Techniques
-        - file: tools.md
+        - file: tools/index.md
           title: Tools & Web Services
           children:
-            - pattern: tools/*
-        - file: data_sources.md
+            - file: tools/opsin_api.md
+            - file: tools/opsin_api_jn.ipynb
+        - file: datasources/index.md
           title: Data Sources
           children:
             - file: datasources/goldbook_api.ipynb
               title: 'Terminology: The IUPAC Gold Book'
             - file: datasources/cas_commonchem.ipynb
-            - file: datasources/pubchem.md
+            - file: datasources/pubchem/index.md
+              title: PubChem
               children:
-                - file: datasources/pubchem_pugrest.md
+                - file: datasources/pubchem/pugrest/index.md
                   title: PubChem PUG-REST
                   children:
-                    - file: datasources/pubchem_pugrest1.ipynb
-                    - file: datasources/pubchem_pugrest2.ipynb
-                    - file: datasources/pubchem_pugrest3.ipynb
-                - file: datasources/pubchem_pugview.ipynb
+                    - file: datasources/pubchem/pugrest/part1.ipynb
+                    - file: datasources/pubchem/pugrest/part2.ipynb
+                    - file: datasources/pubchem/pugrest/part3.ipynb
+                - file: datasources/pubchem/pugview.ipynb
                   title: PubChem PUG-View
-                - file: datasources/pubchem_ptable.ipynb
+                - file: datasources/pubchem/ptable.ipynb
                   title: PubChem Periodic Table
-        - file: manipulations.md
+        - file: manipulations/index.md
           title: Data Manipulations
           children:
             - file: manipulations/computing_inchis.ipynb
@@ -65,20 +67,21 @@ project:
               title: Importing data into Google Sheets
             - file: manipulations/using_inchi.md
               title: Annotation with InChIs
-        - file: usecases.md
+        - file: usecases/index.md
           title: Use Cases & Workflows
           children:
-            - pattern: usecases/*
+            - file: usecases/iupac_pkadata.ipynb
+            - file: usecases/uvvis_metadata.ipynb
     - title: Reference
       children:
-        - file: about_project.md
+        - file: reference/about_project.md
           title: About this project
           children:
-            - file: contributors.md
-            - file: development.md
-            - file: worldfair.md
-        - file: glossary.md
-        - file: bibliography.md
+            - file: reference/contributors.md
+            - file: reference/development.md
+            - file: reference/worldfair.md
+        - file: reference/glossary.md
+        - file: reference/bibliography.md
 site:
   options:
     logo: static/img/iupac_and_wf.jpg

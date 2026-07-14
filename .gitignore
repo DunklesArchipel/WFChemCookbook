@@ -22,3 +22,6 @@ _build
 
 # Jupyter Notebook
 .ipynb_checkpoints
+
+# local files
+TODO.md

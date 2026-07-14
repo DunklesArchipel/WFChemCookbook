@@ -39,7 +39,7 @@ get a JSON file returned (see below).  The JSON file in the image is formatted u
 plugin for Firefox and all the fields have been collapsed to make it easy to see the whole file at
 http://api.crossref.org/works/10.1515/pac-2018-1010.
 
-![fig](../images/gsheets_citations_crossref_api.jpg)
+![fig](images/gsheets_citations_crossref_api.jpg)
 Caption: JSON output from the Crossref API
 
 The data we need to extract to be able to create a citation for this paper is spread throughoout different parts of the
@@ -70,7 +70,7 @@ paper retrieval of these metadata fields and some organization and formating. Th
 in each column, and much of the mechanics is hidden in rows between the showing data.  This is all explained in the
 'How it works' sheet.
 
-![fig](../images/gsheets_citations_howitworks.jpg)
+![fig](images/gsheets_citations_howitworks.jpg)
 Caption: The Google Sheets 'How It Works' sheet 
 
 Let's walk through the code.  The Crossref path is in cell B2 and the DOI is added to cell B3.  The full path is

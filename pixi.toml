@@ -28,7 +28,6 @@ seaborn = ">=0.13.2,<0.14"
 # jcamp_read() -> read() (used in book/usecases/uvvis_metadata.ipynb).
 # Bump both together once a fixed release is out.
 jcamp = "==1.2.2"
-openbabel-wheel = "==3.1.1.22"
 
 [feature.python-310.dependencies]
 python = "3.10.*"
@@ -59,6 +58,12 @@ ipykernel = "*"
 myst-parser = "*"
 myst-nb = "*"
 mystmd = "*"
+
+[feature.doc.pypi-dependencies]
+# needed to execute manipulations/computing_inchis.ipynb; ships wheels only up
+# to Python 3.13, so it lives here (doc/dev resolve 3.13) instead of the base
+# dependencies (default env resolves 3.14 and would try a source build)
+openbabel-wheel = "==3.1.1.22"
 
 [feature.doc.tasks]
 execute = "cd book && myst build --execute --strict --check-links"

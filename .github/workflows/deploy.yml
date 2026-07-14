@@ -15,6 +15,8 @@ on:
 jobs:
   deploy-book:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # required to push to the gh-pages branch
     steps:
       - name: checkout
         uses: actions/checkout@v6
@@ -30,9 +32,11 @@ jobs:
       - name: Inject Matomo analytics
         run: python3 .github/scripts/inject_matomo.py book/_build/html
 
-      # Push the book's HTML to github-pages
+      # Push the book's HTML to github-pages (only on pushes to main;
+      # pull requests just build as a check — their token is read-only)
       - name: GitHub Pages action
-        uses: peaceiris/actions-gh-pages@v3.9.3
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: book/_build/html
